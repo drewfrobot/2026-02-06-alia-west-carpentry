@@ -196,12 +196,7 @@ Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
   <strong>Requirements:</strong>
-  {% if online == "false" %}
-    In order to get the most from the workshop, we highly recommend bringing your own laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that you have administrative privileges on. If this is not possible computers on premises can be provided with no advance notice required.
-  {% else %}
-    In order to get the most from the workshop, we highly recommend bringing your own laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that you have administrative privileges on. If this is not possible computers on premises can be provided with no advance notice required.
-  {% endif %}
-  They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+    In order to get the most from the workshop, we <strong>highly recommend</strong> bringing your own laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that you have administrative privileges on. They should have a few specific software packages installed (listed <a href="#setup">below</a>). If it is not possible to bring your own device, computers on premises can be provided with no advance notice required.
 </p>
 
 {% comment %}
