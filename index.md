@@ -14,7 +14,7 @@ humantime: "9:30am - 5:00pm AWST"    # human-readable times for the workshop e.g
 startdate: 2026-02-06      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2026-02-06        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Drew Fordham", "John Brown"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["John Brown", "Drew Fordham"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Monique Aviso","John Brown", "Drew Fordham"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["d.fordham@curtin.edu.au","john.brown@curtin.edu.au"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: "https://pad.carpentries.org/aliawestcarpentry" # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -197,8 +197,7 @@ Modify the block below if there are any special requirements.
 <p id="requirements">
   <strong>Requirements:</strong>
   {% if online == "false" %}
-    Participants must bring a laptop with a
-    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
+    In order to get the most from the workshop, we highly recommend bringing your own laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that you have administrative privileges on. If this is not possible computers on premises can be provided with no advance notice required.
   {% else %}
     In order to get the most from the workshop, we highly recommend bringing your own laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that you have administrative privileges on. If this is not possible computers on premises can be provided with no advance notice required.
   {% endif %}
